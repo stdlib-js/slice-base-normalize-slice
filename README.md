@@ -99,12 +99,12 @@ When `strict` is `true`, the function returns an error object if an input slice 
 var Slice = require( '@stdlib/slice-ctor' );
 
 var s = normalizeSlice( new Slice( -20, 20, 1 ), 10, true );
-// returns { 'code': 'ERR_OUT_OF_BOUNDS' }
+// returns { 'code': 'ERR_SLICE_OUT_OF_BOUNDS' }
 ```
 
 A returned error object may have one of the following error codes:
 
--   **ERR_OUT_OF_BOUNDS**: a slice exceeds index bounds.
+-   **ERR_SLICE_OUT_OF_BOUNDS**: a slice exceeds index bounds.
 
 </section>
 
@@ -210,8 +210,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/slice-base-normalize-slice.svg
 [npm-url]: https://npmjs.org/package/@stdlib/slice-base-normalize-slice
 
-[test-image]: https://github.com/stdlib-js/slice-base-normalize-slice/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/slice-base-normalize-slice/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/slice-base-normalize-slice/actions/workflows/test.yml/badge.svg?branch=v0.0.1
+[test-url]: https://github.com/stdlib-js/slice-base-normalize-slice/actions/workflows/test.yml?query=branch:v0.0.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/slice-base-normalize-slice/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/slice-base-normalize-slice?branch=main
