@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import normalizeSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-normalize-slice@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/slice-base-normalize-slice/tags). For example,
+
+```javascript
 import normalizeSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-normalize-slice@v0.1.0-esm/index.mjs';
 ```
 
@@ -117,7 +122,7 @@ A returned error object may have one of the following error codes:
 <script type="module">
 
 import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@esm/index.mjs';
-import normalizeSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-normalize-slice@v0.1.0-esm/index.mjs';
+import normalizeSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-normalize-slice@esm/index.mjs';
 
 var s = normalizeSlice( new Slice(), 5, false );
 console.log( 'start: %s. stop: %s. step: %s.', s.start, s.stop, s.step );
