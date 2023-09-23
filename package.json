@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/slice-base-normalize-slice",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Normalize a Slice object.",
   "license": "Apache-2.0",
   "author": {
@@ -37,12 +37,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/slice-ctor": "github:stdlib-js/slice-ctor#main",
-    "@stdlib/types": "^0.0.14"
+    "@stdlib/slice-ctor": "^0.1.0",
+    "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-slice": "github:stdlib-js/assert-is-slice#main",
-    "@stdlib/bench": "^0.0.12",
+    "@stdlib/bench": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
