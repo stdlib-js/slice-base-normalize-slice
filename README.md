@@ -45,38 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/slice-base-normalize-slice
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-normalizeSlice = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-normalize-slice@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var normalizeSlice = require( 'path/to/vendor/umd/slice-base-normalize-slice/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-normalize-slice@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.normalizeSlice;
-})();
-</script>
+var normalizeSlice = require( '@stdlib/slice-base-normalize-slice' );
 ```
 
 <a name="main"></a>
@@ -134,14 +126,9 @@ A returned error object may have one of the following error codes:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-normalize-slice@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var Slice = require( '@stdlib/slice-ctor' );
+var normalizeSlice = require( '@stdlib/slice-base-normalize-slice' );
 
 var s = normalizeSlice( new Slice(), 5, false );
 console.log( 'start: %s. stop: %s. step: %s.', s.start, s.stop, s.step );
@@ -162,11 +149,6 @@ console.log( 'start: %s. stop: %s. step: %s.', s.start, s.stop, s.step );
 s = normalizeSlice( new Slice( 1, 20, 2 ), 5, false );
 console.log( 'start: %s. stop: %s. step: %s.', s.start, s.stop, s.step );
 // => 'start: 1. stop: 5. step: 2.'
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -258,7 +240,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/slice-base-normalize-slice/main/LICENSE
 
-[@stdlib/slice/ctor]: https://github.com/stdlib-js/slice-ctor/tree/umd
+[@stdlib/slice/ctor]: https://github.com/stdlib-js/slice-ctor
 
 </section>
 
