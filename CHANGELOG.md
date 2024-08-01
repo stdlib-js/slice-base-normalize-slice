@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-08-01)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-27)
@@ -26,31 +60,7 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`dea49e0`](https://github.com/stdlib-js/stdlib/commit/dea49e03ab5571233e3da26835a6a6d3256d5737) - **docs:** use single quotes in require calls instead of backticks _(by Philipp Burckhardt)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
+No changes reported for this release.
 
 </section>
 
@@ -70,57 +80,7 @@ No changes reported for this release.
 
 ## 0.0.1 (2023-09-21)
 
-<section class="features">
-
-### Features
-
--   [`82dea00`](https://github.com/stdlib-js/stdlib/commit/82dea00133a02b5fa3ca4638b390f920003e8a5d) - rename error codes
--   [`b3a05c7`](https://github.com/stdlib-js/stdlib/commit/b3a05c767164a958b55c4ec7c965c8d2a8e4e55c) - add `slice/base/normalize-slice`
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-### BREAKING CHANGES
-
--   [`82dea00`](https://github.com/stdlib-js/stdlib/commit/82dea00133a02b5fa3ca4638b390f920003e8a5d): rename error codes
--   [`82dea00`](https://github.com/stdlib-js/stdlib/commit/82dea00133a02b5fa3ca4638b390f920003e8a5d): rename error codes 
-
-    -   To migrate, if users were checking for particular error codes, they
-    should add the `SLICE_` prefix to their checks.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`82dea00`](https://github.com/stdlib-js/stdlib/commit/82dea00133a02b5fa3ca4638b390f920003e8a5d) - **feat:** rename error codes _(by Athan Reines)_
--   [`b3a05c7`](https://github.com/stdlib-js/stdlib/commit/b3a05c767164a958b55c4ec7c965c8d2a8e4e55c) - **feat:** add `slice/base/normalize-slice` _(by Athan Reines)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Athan Reines
-
-</section>
-
-<!-- /.contributors -->
+No changes reported for this release.
 
 </section>
 
