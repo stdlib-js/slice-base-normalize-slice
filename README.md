@@ -169,6 +169,12 @@ console.log( 'start: %s. stop: %s. step: %s.', s.start, s.stop, s.step );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/slice-base/normalize-multi-slice`][@stdlib/slice/base/normalize-multi-slice]</span><span class="delimiter">: </span><span class="description">normalize a MultiSlice object.</span>
+
 </section>
 
 <!-- /.related -->
@@ -246,6 +252,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/slice-base-normalize-slice/main/LICENSE
 
 [@stdlib/slice/ctor]: https://github.com/stdlib-js/slice-ctor
+
+<!-- <related-links> -->
+
+[@stdlib/slice/base/normalize-multi-slice]: https://github.com/stdlib-js/slice-base-normalize-multi-slice
+
+<!-- </related-links> -->
 
 </section>
 
