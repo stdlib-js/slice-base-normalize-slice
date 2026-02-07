@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import normalizeSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-normalize-slice@esm/index.mjs';
+import normalizeSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-normalize-slice@v0.2.3-esm/index.mjs';
 ```
 
 <a name="main"></a>
@@ -117,7 +117,7 @@ A returned error object may have one of the following error codes:
 <script type="module">
 
 import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@esm/index.mjs';
-import normalizeSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-normalize-slice@esm/index.mjs';
+import normalizeSlice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-normalize-slice@v0.2.3-esm/index.mjs';
 
 var s = normalizeSlice( new Slice(), 5, false );
 console.log( 'start: %s. stop: %s. step: %s.', s.start, s.stop, s.step );
