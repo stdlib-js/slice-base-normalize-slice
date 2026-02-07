@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/slice-base-normalize-slice",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Normalize a Slice object.",
   "license": "Apache-2.0",
   "author": {
